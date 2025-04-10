@@ -1,0 +1,332 @@
+.custom-header {
+    background: linear-gradient(to right, black, red);
+    padding: 10px 0;
+}
+
+.custom-footer {
+    background: black;
+    color: white; /* Ensures all text is white */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+
+/* Estilos para las imágenes entre el header y footer */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Asegura que los enlaces dentro del footer también sean blancos */
+.custom-footer h2, .custom-footer p {
+    color: white;
+}
+
+/* Cambiar el icono del menú hamburguesa a blanco */
+.navbar-toggler-icon {
+    filter: invert(1); /* Inverts the colors, making it white */
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    max-width: 500px; /* Evita que las imágenes sean demasiado grandes */
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Estilo de los controles de los carouseles */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;  /* Hace visibles los iconos de los controles */
+}
+
+/* Asegura que los botones estén por encima de las imágenes */
+.carousel-control-prev, .carousel-control-next {
+    z-index: 1;
+}
+
+/* Añadir espacio superior a los carouseles para mayor separación */
+
+.carousel {
+    margin-top: 20px; /* Reduce el espacio superior */
+    max-width: 300px; /* Hace que el carrusel sea más estrecho */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px; /* Menos espacio alrededor */
+   
+        margin-top: 15px; /* Reduce el margen superior */
+       
+    
+    
+}
+
+
+
+
+
+
+/* Estilo para las imágenes de los items del carrusel */
+.carousel-item img {
+    transition: transform 0.5s ease;
+}
+
+/* En hover, las imágenes se agrandan ligeramente */
+.carousel-item img:hover {
+    transform: scale(1.05); /* Zoom ligero al pasar el ratón */
+}
+
+.search-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search-bar .form-control {
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 18px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar .form-control {
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%; /* Ajusta el tamaño al contenedor */
+}
+
+.navbar-nav {
+    margin-top: 10px;  /* Espaciado entre la barra de búsqueda y los enlaces de navegación */
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    transform: scale(1.2); /* Hace que los botones de navegación crezcan al hacer hover */
+}
+
+/* Estilos para las redes sociales en el footer */
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f8d7da; /* Puedes cambiarlo por el color que desees */
+}
+
+/* Estilos para el formulario de suscripción */
+.newsletter {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background-color: #f8d7da;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-button:hover {
+    background-color: #e0b0b0;
+}
+
+/* Estilos responsivos para el footer */
+@media (max-width: 768px) {
+    .custom-footer .row {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+
+    .newsletter {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+ .movie-box {
+            background-color: hsl(0, 55%, 51%); /* Rojo suave */
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .movie-box h3 {
+            font-family: 'Georgia', serif; /* Fuente para el título */
+            font-size: 1.5rem; /* Tamaño de fuente ajustable */
+            font-weight: bold;
+            margin-bottom: 10px; /* Espacio debajo del título */
+        }
+        
+        .movie-box p {
+            font-family: Arial, Helvetica, sans-serif; /* Fuente para el texto */
+            font-size: 1rem; /* Tamaño de fuente ajustable */
+            line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+        }
+        .movie-box img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        
+        .dark-mode .custom-header {
+            background: linear-gradient(to right, black, red);
+        }
+        
+        .dark-mode .custom-footer {
+            background-color: #222;
+        }
+        
+        .dark-mode button {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        h1 {
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .card-title {
+            
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        
+        .card-text {
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        /* Estilo para el GIF en la página About Us */
+.gif-container {
+    text-align: center; /* Centra el GIF */
+    margin-top: 30px;   /* Espacio superior */
+}
+
+.about-us-gif {
+    width: 50%; /* Puedes ajustar el tamaño del GIF */
+    max-width: 400px; /* Limita el tamaño máximo */
+}
+
+#change-background-btn {
+    padding: 5px 10px; /* Reduce el tamaño del botón con menos relleno */
+    font-size: 12px; /* Hace el texto más pequeño */
+    background-color: #cc3333; /* Rojo suave como fondo */
+    color: white; /* Texto en blanco */
+    border: none; /* Elimina los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#change-background-btn:hover {
+    background-color: #ff6666; /* Cambio de color cuando se pasa el mouse */
+}
+
+
+        

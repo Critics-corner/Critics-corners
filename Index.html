@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+    <meta name="description" content="Discover movie reviews, ratings, and recommendations for various genres such as Action, Horror, Romance, and Fantasy. Share your thoughts on your favorite movies and explore new films to watch.">
+
+    <!-- Palabras clave -->
+    <meta name="keywords" content="movie reviews, film reviews, Action movies, Horror movies, Romance films, Fantasy movies, top movies, movie ratings, movie opinions">
+
+    <!-- Autor del sitio -->
+    <meta name="author" content="Critic´s Corner">
+
+
+</head>
+
+    <body>
+         <!-- Header -->
+    <header class="navbar navbar-expand-lg custom-header">
+        <div class="container">
+            <!-- Logo a la izquierda -->
+            <a class="navbar-brand" href="Index.html">
+                <img src="Images/Logo.png" alt="Logo" class="logo">
+            </a>
+
+            <!-- Barra de búsqueda a la izquierda de los botones -->
+            <div class="d-flex align-items-center ms-3 me-3 w-50">
+                <input type="text" class="form-control w-100" placeholder="Search for movies..." id="searchInput">
+            </div>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+
+
+            <!-- Botones de navegación a la derecha -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Categories/Categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Principal Pages/About Us.html">About us</a></li>
+                </ul>
+            </div>
+        </div>
+       
+
+    </header>
+    <button id="change-background-btn">Change Background Color</button>
+    
+      
+   
+    
+
+    <!-- Main Content -->
+    <main class="container-fluid">
+        <div class="row text-center my-4">
+            <h1>Welcome to Critic´s Corner 
+  </h1>
+            <p>Explore the best movie reviews, discover expert reviews <br>
+                and share your opinion about the movies you love. 
+                </p>
+        </div>
+
+        <div class="container">
+            <!-- Primera fila de carruseles -->
+            <div class="row">
+                <!-- Carrusel de Terror -->
+                <div class="col-md-6">
+                    <div id="terrorCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/conjuro.jpg" class="d-block w-100" alt="Terror Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Dont.....jpg" class="d-block w-100" alt="Terror Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Insidous.jpg" class="d-block w-100" alt="Terror Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Smile.jpg" class="d-block w-100" alt="Terror Movie 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#terrorCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#terrorCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Carrusel de Romance -->
+                <div class="col-md-6">
+                    <div id="romanticCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/500 summer.jpg" class="d-block w-100" alt="Romantic Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Lalaland.jpg" class="d-block w-100" alt="Romantic Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Me before you.jpg" class="d-block w-100" alt="Romantic Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/The notebook.jpg" class="d-block w-100" alt="Romantic Movie 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#romanticCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#romanticCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Segunda fila de carruseles -->
+            <div class="row">
+                <!-- Carrusel de Acción -->
+                <div class="col-md-6">
+                    <div id="actionCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/Avengers.jpg" class="d-block w-100" alt="Action Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Terminator.jpg" class="d-block w-100" alt="Action Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Till the last man.jpg" class="d-block w-100" alt="Action Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Impossible.jpg" class="d-block w-100" alt="Action Movie 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#actionCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#actionCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Carrusel de Fantasía -->
+                <div class="col-md-6">
+                    <div id="fantasyCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/Lord of the rings.jpg" class="d-block w-100" alt="Fantasy Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Harry Potter.jpg" class="d-block w-100" alt="Fantasy Movie 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/Narnia.jpg" class="d-block w-100" alt="Fantasy Movie 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/I Robot.jpg" class="d-block w-100" alt="Fantasy Movie 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#fantasyCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#fantasyCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            
+    </main>
+
+   <!-- Footer -->
+<footer class="custom-footer text-center py-3">
+    <div class="container">
+        <!-- Fila de tres columnas para mejor organización -->
+        <div class="row">
+            <!-- Sección sobre Nosotros -->
+            <div class="col-md-4">
+                <h4>About Us</h4>
+                <p>We are a Website where you can find movie reviews and share your opinion about your favorite films.</p>
+            </div>
+            <!-- Enlaces rápidos -->
+            <div class="col-md-4">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Categories/Categories.html">Categories</a></li>
+                    <li><a href="Principal Pages/About Us.html">About Us</a></li>
+                </ul>
+            </div>
+            <!-- Sección de Redes Sociales -->
+            <div class="col-md-4">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suscripción al boletín -->
+        <div class="newsletter mt-4">
+            <h4>Subscribe to our Newsletter</h4>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Aviso de derechos reservados -->
+        <p class="text-white mt-3">© 2025 Your Website. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Top Movies</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../Styles/Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+</head>
+<body>
+    <!-- Header -->
+<header class="navbar navbar-expand-lg custom-header">
+    <div class="container">
+        <a class="navbar-brand" href="../Index.html">
+            <img src="../Images/Logo.png" alt="Logo" class="logo">
+        </a>
+         <!-- Barra de búsqueda a la izquierda de los botones -->
+         <div class="d-flex align-items-center ms-3 me-3 w-50">
+            <input type="text" class="form-control w-100" placeholder="Search for movies..." id="searchInput">
+        </div>
+        <button id="darkModeToggle">🌙 Dark Mode</button>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="../Index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="Categories.html">Categories</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="Terror.html">Terror</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="Action.html">Action</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="Fantasy.html">Fantasy</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="Romantic.html">Romantic</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<button id="change-background-btn">Change Background Color</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<div class="container my-5">
+    <div class="row movie-box">
+        <div class="col-md-4">
+            <img src="../Images/Wild robot.jpg" alt="Movie 1">
+        </div>
+        <div class="col-md-8">
+            <h3>Wild Robot</h3>
+            <p>Based on the popular children’s novel by Peter Brown, "The Wild Robot" follows the story of a robot named Roz who awakens on an isolated island after a shipwreck. 
+                <br> The story revolves around Roz’s efforts to adapt to her environment and the challenges she faces while interacting with the natural world and its creatures, slowly developing emotional bonds with them.</p>
+                <br><p></p>
+        </div>
+    </div>
+
+    <div class="row movie-box">
+        <div class="col-md-4">
+            <img src="../Images/Dune 2.jpg" alt="Movie 2">
+        </div>
+        <div class="col-md-8">
+            <h3>Dune 2</h3>
+            <p>The second installment of Denis Villeneuve’s epic adaptation of Frank Herbert’s sci-fi novel "Dune" continues the story of Paul Atreides (Timothée Chalamet) as he embraces his destiny on the desert planet of Arrakis. 
+                <br> The film focuses on Paul’s rise to power, his alliance with the Fremen, and his journey toward avenging his family and controlling the desert planet's precious spice.</p>
+                <br><p>As the sequel to one of the most visually stunning sci-fi films of recent years, "Dune: Part Two" is highly anticipated. 
+                    <br>The first film received critical acclaim for its world-building, direction, and cast, and the sequel is expected to further expand on the story’s complex political, philosophical, and ecological themes.
+                     <br> Fans expect an intense continuation with even more breathtaking visuals.</p>
+        </div>
+    </div>
+
+    <div class="row movie-box">
+        <div class="col-md-4">
+            <img src="../Images/The substance.jpg" alt="Movie 3">
+        </div>
+        <div class="col-md-8">
+            <h3>The Substance</h3>
+            <p> "The Substance" follows a unique premise where a scientist discovers a mysterious substance with the potential to revolutionize medicine, but it has unforeseen consequences on those who come into contact with it.
+                 <br> The film explores themes of ambition, ethics, and the darker side of scientific progress.
+ </p> <br><p></p>
+        </div>
+    </div>
+
+    <div class="row movie-box">
+        <div class="col-md-4">
+            <img src="../Images/wicked.jpg" alt="Movie 4">
+        </div>
+        <div class="col-md-8">
+            <h3>Wicked</h3>
+            <p> "Wicked" is a film adaptation of the highly successful Broadway musical based on Gregory Maguire’s novel.
+                 <br> The musical tells the backstory of the Wicked Witch of the West (Elphaba) and Glinda the Good Witch, exploring their complicated friendship, the politics of the land of Oz, and how they became the iconic characters from "The Wizard of Oz".</p>
+                 <br><p></p>
+        </div>
+    </div>
+
+    <div class="row movie-box">
+        <div class="col-md-4">
+            <img src="../Images/The  Fall Guy.jpg" alt="Movie 5">
+        </div>
+        <div class="col-md-8">
+            <h3>The Fall Guy</h3>
+            <p>"The Fall Guy" is based on the 1980s TV series of the same name, which follows a Hollywood stuntman who often finds himself in dangerous and unexpected situations. 
+                <br>The movie adaptation stars Ryan Gosling and focuses on a stuntman who takes on a job to find a missing actor, only to become entangled in a deeper conspiracy.</p>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="custom-footer text-center py-3">
+    <div class="container">
+        <!-- Fila de tres columnas para mejor organización -->
+        <div class="row">
+            <!-- Sección sobre Nosotros -->
+            <div class="col-md-4">
+                <h4>About Us</h4>
+                <p>We are a Website where you can find movie reviews and share your opinion about your favorite films.</p>
+            </div>
+            <!-- Enlaces rápidos -->
+            <div class="col-md-4">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../Index.html">Home</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="../Principal pages/About Us.html">About Us</a></li>
+                </ul>
+            </div>
+            <!-- Sección de Redes Sociales -->
+            <div class="col-md-4">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suscripción al boletín -->
+        <div class="newsletter mt-4">
+            <h4>Subscribe to our Newsletter</h4>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Aviso de derechos reservados -->
+        <p class="text-white mt-3">© 2025 Your Website. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="../Script.js"></script>
+</body>
+</html>
